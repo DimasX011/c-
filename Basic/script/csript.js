@@ -12,7 +12,9 @@ function start() {
 
 }
 start();
-    
+
+let box = document.getElementById('box');
+
 let appData = {
     budget: money,
     timeData: time,
