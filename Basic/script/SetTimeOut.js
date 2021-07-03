@@ -60,7 +60,7 @@ let btnBlock = document.querySelector('.btn-blick'),
     btns3 = document.getElementsByClassName('button');
 
     btnBlock3.addEventListener('click',function(event){
-        if(event.target && event.target.matches('buuton.first')){
+        if(event.target && event.target.matches('buton.first')){
             console.log("Hello");
         }
     });
